@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jslib.js"></script>
+</head>
+<body>
+    <!-- <button id="i">In</button>
+    <button id="o">Out</button>
+    <button id="t">Toggle</button>
+    <div id="d1" style="background-color: red; width: 300px;"></div><br>
+    <div id="d2" style="background-color: red; width: 300px;"></div><br>
+    <div id="d3" style="background-color: red; width: 300px;" ></div><br>
+
+    <script>
+        $(document).ready(function(){
+            $("#i").click(function(){
+                $("#d1").fadeIn();
+                $("#d2").fadeIn("slow");
+                $("#d3").fadeIn(3000);
+            })
+            $("#o").click(function(){
+                $("#d1").fadeOut();
+                $("#d2").fadeOut("slow");
+                $("#d3").fadeOut(3000);
+            })
+        })
+    </script> -->
+
+
+    <!-- <button>Stop</button> -->
+    <!-- <div id="p">Click me</div>
+    <div id="s">Hello</div>
+    <script>
+        $(document).ready(function(){
+            $("#p").click(function(){
+                $("#s").slideDown();
+                $("#s").slideup();
+                $("#s").slideToggle();
+            })
+        })
+    </script> -->
+
+        <!-- <button>click me</button>
+        <div style="background-color: red; width: 100px;height: 100px;position: absolute;"></div>
+        <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+                $("div").animate({
+                    left:'250px'
+                });
+
+            })
+        })
+        </script> -->
+
+    
+        <!-- <button>Click</button>
+    <pre>Hiiiijvcdgjhcbdsabkdnsjfhinegwfhdjcs
+        skdgytgsadhj
+        dghjkjhgfdfghjuytredcvb
+        jshqwygfhvdax
+    </pre>
+    <script>
+                $(document).ready(function(){
+            $("button").click(function(){
+                $("pre").hide(1000,function(){
+                    alert("HIdden")
+                });
+            });
+        });
+
+    </script> -->
+
+
+    <!-- <button>Click me</button>
+    <p>HEYYYYYYYYYYYYYYYYYYYYYYYYYY</p>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").css("color","red").slideUp(2000).slideDown(2000)
+            
+            });
+        });
+    </script> -->
+
+
+    <p>hiiii <b>Welcome</b></p>
+    <input type="text"  id="i">
+    <button id="t">Text</button>
+    <button id="h">html</button>
+    <button id="v">val</button>
+    <button id="a">attr</button>
+
+
+    <script>
+
+        // SET
+        // $(document).ready(function(){
+        //     $("#t").click(function(){
+        //         a=$("p").text();
+        //         alert(a)
+        //     })
+
+        // $("#h").click(function(){
+        //         a=$("p").html();
+        //         alert(a)
+        //     })
+        // $("#v").click(function(){
+        //         a=$("#i").val();
+        //         alert(a)
+        //     })
+        // $("#a").click(function(){
+        //         a=$("#i").attr("type");
+        //         // a=$("#i").attr("id");
+        //         alert(a)
+        //     })
+        // })
+
+
+        // GET
+
+        $(document).ready(function(){
+            $("#t").click(function(){
+                $("p").text("Haii <b>hello</b>")
+            })
+
+        $("#h").click(function(){
+            //     a=$("p").html();
+            //     alert(a)
+            $("p").html("Haii <b>anu</b>")
+            })
+        $("#v").click(function(){
+                // a=$("#i").val();
+                // alert(a)
+                $("#i").val("welcome")
+            })
+        $("#a").click(function(){
+                // a=$("#i").attr("type");
+                // a=$("#i").attr("id");
+                // alert(a)
+                $("#i").attr("type","radio")
+            })
+        })
+
+    </script>
+
+
+
+
+</body>
+</html>

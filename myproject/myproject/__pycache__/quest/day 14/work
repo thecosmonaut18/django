@@ -1,0 +1,10 @@
+# a={'name':'jilson','age':21,'email':'jilson@gm','place':'ekm'}
+# print(a)
+# n=input("Enter the key to be changed : ")
+# z=input("Enter the Key : ")
+# if n in a:
+#     b=a.pop(n)
+#     a[z]=b
+#     print(a)
+# else:
+#     print("Key not found")
